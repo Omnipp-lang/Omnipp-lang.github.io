@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Omni++ Roadmap</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .topbar {
+      background: #2e86de;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .topbar a {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .topbar a:hover {
+      text-decoration: underline;
+    }
+
+    h1, h2 {
+      color: #2e86de;
+    }
+
+    section {
+      background: #fff;
+      padding: 20px;
+      margin: 20px;
+      border-left: 5px solid #2e86de;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      padding: 5px 0;
+    }
+
+    li::before {
+      content: "✔";
+      color: green;
+      margin-right: 10px;
+    }
+
+    .incomplete li::before {
+      content: "⬜";
+      color: #aaa;
+    }
+
+    .incomplete h2 {
+      color: #999;
+    }
+
+    .content {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="roadmap.html">Roadmap</a>
+  </div>
+
+  <div class="content">
+    <h1>Omni++ Public Roadmap</h1>
+    <p><strong>Omni++</strong> is a next-generation programming language — the spiritual successor to C++ — combining low-level control with high-level capabilities, Web3 support via Crypted, and full interoperability with major programming ecosystems.</p>
+
+    <section>
+      <h2>Phase 1: Core Language & Compiler Foundations (Q2 2025)</h2>
+      <ul>
+        <li>Design core Omni++ syntax</li>
+        <li>Integrate AOT/JIT switchable compilation</li>
+        <li>LLVM backend integration</li>
+        <li>Custom closed-source backend</li>
+        <li>Core standard library (IO, memory, math, string, threading)</li>
+        <li>REPL & scripting support</li>
+        <li>Initial documentation & syntax guide</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Phase 2: Superset & Interop Expansion (Q3 2025)</h2>
+      <ul>
+        <li>FFI for C, C++, C#, JavaScript, and Python</li>
+        <li>Built-in Web3 tooling via Crypted</li>
+        <li>ML/AI: TensorFlow, PyTorch C++, ONNX Runtime</li>
+        <li>Parallelism: Checked C, Rust interop, RxCpp</li>
+        <li>Functional: SQL++, Lua++, Jupyter kernel</li>
+        <li>GUI: Qt, wxWidgets, JUCE, ImGui, Vulkan-HPP</li>
+        <li>Embedded: Zephyr, TinyOS, MISRA, AUTOSAR</li>
+        <li>Game engines: Godot, Unreal, CryEngine, Unity</li>
+        <li>Scientific: Verilog/VHDL transpiler, Geometric Algebra DSL</li>
+        <li>WASM-native, Zig/Nim/D language bridges</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Phase 3: Developer Experience & Tooling (Q4 2025)</h2>
+      <ul>
+        <li>CLI Toolchain (omnic, omnijit, omnipkg)</li>
+        <li>VSCode extension & syntax highlighting</li>
+        <li>Omni++ Language Server (LSP)</li>
+        <li>Unit testing framework</li>
+        <li>Package manager (omniverse)</li>
+        <li>Interactive documentation & example portal</li>
+        <li>Jupyter integration for AI/data science workflows</li>
+      </ul>
+    </section>
+
+    <section class="incomplete">
+      <h2>Phase 4: Public Beta & Ecosystem (Q1 2026)</h2>
+      <ul>
+        <li>Closed Alpha with selected contributors</li>
+        <li>Public Beta for Linux, Windows, macOS</li>
+        <li>Release on GitHub & PyPI</li>
+        <li>Launch public issue tracker & forums</li>
+        <li>Start ecosystem grant program</li>
+        <li>Launch official Discord/Matrix community</li>
+      </ul>
+    </section>
+
+    <section class="incomplete">
+      <h2>Phase 5: Omni++ 1.0 Stable (Mid–Late 2026)</h2>
+      <ul>
+        <li>Optimization and final performance tuning</li>
+        <li>Security audit & fuzz testing</li>
+        <li>Long-term support (LTS) version</li>
+        <li>Omni++ 1.0 Stable Release</li>
+        <li>Official showcase of Omni++ projects</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
