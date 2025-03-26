@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Omni++ Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .topbar {
+      background: #2e86de;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .topbar a {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .topbar a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: white;
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      color: #2e86de;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .features {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .features h2 {
+      text-align: center;
+      color: #2e86de;
+      margin-bottom: 30px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .feature {
+      background: white;
+      padding: 20px;
+      border-left: 5px solid #2e86de;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .feature h3 {
+      margin-top: 0;
+      color: #2e86de;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="roadmap.html">Roadmap</a>
+  </div>
+
+  <div class="hero">
+    <h1>Welcome to Omni++</h1>
+    <p>The next-generation C++-inspired hybrid language for modern software, system, Web3, AI, and game development — built with power, extensibility, and developer freedom in mind.</p>
+  </div>
+
+  <div class="features">
+    <h2>Key Features</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <h3>Hybrid Compilation</h3>
+        <p>Choose between AOT and JIT at compile-time, giving you performance when you need it and flexibility when you want it.</p>
+      </div>
+      <div class="feature">
+        <h3>Massive Superset Integration</h3>
+        <p>Includes over 40 C++-based supersets for GPU, quantum, game dev, scientific computing, GUI, WebAssembly, and more.</p>
+      </div>
+      <div class="feature">
+        <h3>Web3 Built-In</h3>
+        <p>Direct blockchain interoperability using the integrated Crypted engine. Write decentralized logic natively with Omni++.</p>
+      </div>
+      <div class="feature">
+        <h3>Language Interop</h3>
+        <p>Call code from C, C++, C#, JavaScript, and Python libraries and packages directly inside your Omni++ projects.</p>
+      </div>
+      <div class="feature">
+        <h3>Game & Simulation Focused</h3>
+        <p>Native extensions for Godot, Unreal, CryEngine, Unity, and physics DSLs make game development seamless.</p>
+      </div>
+      <div class="feature">
+        <h3>Dev-First Tooling</h3>
+        <p>Comes with a CLI toolchain, package manager, LSP, and full IDE integration for a modern coding experience.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
